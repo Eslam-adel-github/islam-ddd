@@ -211,9 +211,9 @@ abstract class ServiceProvider extends LaravelServiceProvider
     {
         $directory = Path::toCommon('Components');
         if(File::isDirectory($directory)){
-            $directories = Path::directories('app','Common','Components');
+            $directories = Path::directories('src','Common','Components');
             foreach($directories as $dir){
-                $class = NamespaceCreator::Segments('App','Common','Components',$dir,'Component');
+                $class = NamespaceCreator::Segments('Src','Common','Components',$dir,'Component');
                 Blade::component(Str::lower($dir), $class);
             }
             $this->loadViewsFrom(Path::toCommon('Components'),'Component');
