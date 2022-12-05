@@ -1,14 +1,14 @@
 <?php
 
-namespace islam\DDD;
+namespace islamss\DDD;
 
-use islam\DDD\Helper\ArrayFormatter;
-use islam\DDD\Helper\Make\Types\Domain;
-use islam\DDD\Helper\Make\Types\FirstDomain;
-use islam\DDD\Helper\Path;
+use islamss\DDD\Helper\ArrayFormatter;
+use islamss\DDD\Helper\Make\Types\Domain;
+use islamss\DDD\Helper\Make\Types\FirstDomain;
+use islamss\DDD\Helper\Path;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use islam\DDD\Helper\Stub;
+use islamss\DDD\Helper\Stub;
 use Illuminate\Support\Facades\Artisan;
 
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace islam\DDD;
+namespace islamss\DDD;
 
-use islam\DDD\Make;
-use islam\DDD\Build;
-use islam\DDD\Directory;
+use islamss\DDD\Make;
+use islamss\DDD\Build;
+use islamss\DDD\Directory;
 use Illuminate\Support\ServiceProvider;
 
 class DomainDriverDesignServiceProvider extends ServiceProvider{

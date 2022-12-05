@@ -1,17 +1,17 @@
 <?php
 
-namespace islam\DDD;
+namespace islamss\DDD;
 
 use ReflectionClass;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Stub;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Stub;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\File;
-use islam\DDD\Helper\ArrayFormatter;
+use islamss\DDD\Helper\ArrayFormatter;
 use Illuminate\Support\Facades\Artisan;
-use islam\DDD\Helper\Make\Types\Domain;
-use islam\DDD\Helper\Make\Types\FirstDomain;
+use islamss\DDD\Helper\Make\Types\Domain;
+use islamss\DDD\Helper\Make\Types\FirstDomain;
 
 
 /**

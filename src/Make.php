@@ -1,11 +1,11 @@
 <?php
 
-namespace islam\DDD;
+namespace islamss\DDD;
 
-use islam\DDD\Helper\FileCreator;
+use islamss\DDD\Helper\FileCreator;
 use Illuminate\Console\Command;
-use islam\DDD\Helper\Make\Service\MakeFactory;
-use islam\DDD\Helper\Make\Service\NullMaker;
+use islamss\DDD\Helper\Make\Service\MakeFactory;
+use islamss\DDD\Helper\Make\Service\NullMaker;
 use Illuminate\Support\Facades\Artisan;
 
 class Make extends Command
