@@ -1,5 +1,5 @@
 <?php
-namespace islam\DDD\Traits;
+namespace islamss\DDD\Traits;
 
 use Illuminate\View\View;
 
