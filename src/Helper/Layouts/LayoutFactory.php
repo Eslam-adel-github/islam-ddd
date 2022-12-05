@@ -1,6 +1,6 @@
 <?php
 
-namespace islam\DDD\Helper\Layouts;
+namespace islamss\DDD\Helper\Layouts;
 
 class LayoutFactory{
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace islam\DDD\Helper\Layouts;
+namespace islamss\DDD\Helper\Layouts;
 
-use islam\DDD\Helper\Path;
+use islamss\DDD\Helper\Path;
 use Illuminate\Support\Facades\File;
 
 class DashboardLayout extends Layout{

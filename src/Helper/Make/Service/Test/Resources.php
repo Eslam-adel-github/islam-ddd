@@ -1,17 +1,17 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Service\Test;
+namespace islamss\DDD\Helper\Make\Service\Test;
 
 use Illuminate\Support\Str;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Naming;
-use App\Domain\User\Entities\User;
-use islam\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Naming;
+use Src\Domain\User\Entities\User;
+use islamss\DDD\Helper\Make\Maker;
 use Illuminate\Support\Facades\File;
-use islam\DDD\Helper\NamespaceCreator;
-use islam\DDD\Helper\Make\Service\Test\Test;
+use islamss\DDD\Helper\NamespaceCreator;
+use islamss\DDD\Helper\Make\Service\Test\Test;
 use Illuminate\Http\Resources\Json\JsonResource;
-use App\Domain\User\Http\Resources\User\UserResource;
+use Src\Domain\User\Http\Resources\User\UserResource;
 use ReflectionClass;
 
 class Resources extends Test

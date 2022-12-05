@@ -1,6 +1,6 @@
 <?php
 
-namespace islam\DDD\Helper;
+namespace islamss\DDD\Helper;
 
 class StringFormatter
 {

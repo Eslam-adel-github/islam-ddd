@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Domain\User\Entities;
+namespace Src\Domain\User\Entities;
 
 //use Laravel\Passport\HasApiTokens;
 //use Spatie\Permission\Traits\HasRoles;
 use Illuminate\Notifications\Notifiable;
-use App\Domain\User\Entities\Traits\Relations\UserRelations;
+use Src\Domain\User\Entities\Traits\Relations\UserRelations;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use App\Domain\Users\Repositories\Contracts\TeamRepository;
-use App\Domain\User\Entities\Traits\CustomAttributes\UserAttributes;
-use App\Domain\User\Repositories\Contracts\UserRepository;
+use Src\Domain\Users\Repositories\Contracts\TeamRepository;
+use Src\Domain\User\Entities\Traits\CustomAttributes\UserAttributes;
+use Src\Domain\User\Repositories\Contracts\UserRepository;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class User extends Authenticatable

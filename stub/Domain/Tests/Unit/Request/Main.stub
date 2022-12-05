@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Domain\{{DOMAIN}}\Tests\Unit\Requests;
+namespace Src\Domain\{{DOMAIN}}\Tests\Unit\Requests;
 
 use Validator;
 use Tests\TestCase;
-use App\Domain\{{DOMAIN}}\Http\Requests\{{REQUEST}};
+use Src\Domain\{{DOMAIN}}\Http\Requests\{{REQUEST}};
 
 class {{REQUEST}}Test extends TestCase
 {

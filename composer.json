@@ -1,5 +1,5 @@
 {
-    "name": "islamss/ddd",
+    "name": "islam/ddd",
     "description": "DDD Laravel-structure-generator",
     "license": "MIT",
     "minimum-stability": "dev",
@@ -18,20 +18,20 @@
     },
     "autoload": {
         "psr-4": {
-            "islam\\DDD\\":"src/",
+            "islamss\\DDD\\":"src/",
             "App\\":"app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "islam\\DDD\\":"src/",
+            "islamss\\DDD\\":"src/",
             "Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel":{
             "providers":[
-                "MohamedReda\\DDD\\DomainDriverDesignServiceProvider"
+                "islamss\\DDD\\DomainDriverDesignServiceProvider"
             ]
         }
     },

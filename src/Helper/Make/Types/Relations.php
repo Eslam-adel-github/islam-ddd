@@ -1,18 +1,18 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Types;
+namespace islamss\DDD\Helper\Make\Types;
 
 use Reflection;
 use ReflectionClass;
 use Illuminate\Support\Str;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Naming;
-use islam\DDD\Helper\Make\Maker;
-use islam\DDD\Helper\FileCreator;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Naming;
+use islamss\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\FileCreator;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Artisan;
-use islam\DDD\Helper\Make\Types\Allow;
-use islam\DDD\Helper\NamespaceCreator;
+use islamss\DDD\Helper\Make\Types\Allow;
+use islamss\DDD\Helper\NamespaceCreator;
 
 class Relations extends Maker
 {

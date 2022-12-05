@@ -1,16 +1,16 @@
 <?php
 
-namespace islam\DDD\Helper;
+namespace islamss\DDD\Helper;
 
-use islam\DDD\Helper\Make\Types\Controller;
-use islam\DDD\Helper\Make\Types\DatabaseView;
-use islam\DDD\Helper\Make\Types\Datatable;
-use islam\DDD\Helper\Make\Types\Domain;
-use islam\DDD\Helper\Make\Types\Entity;
-use islam\DDD\Helper\Make\Types\Factory;
-use islam\DDD\Helper\Make\Types\Migration;
-use islam\DDD\Helper\Make\Types\Seeder;
-use islam\Support\Arr;
+use islamss\DDD\Helper\Make\Types\Controller;
+use islamss\DDD\Helper\Make\Types\DatabaseView;
+use islamss\DDD\Helper\Make\Types\Datatable;
+use islamss\DDD\Helper\Make\Types\Domain;
+use islamss\DDD\Helper\Make\Types\Entity;
+use islamss\DDD\Helper\Make\Types\Factory;
+use islamss\DDD\Helper\Make\Types\Migration;
+use islamss\DDD\Helper\Make\Types\Seeder;
+use islamss\Support\Arr;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 

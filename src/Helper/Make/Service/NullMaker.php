@@ -1,8 +1,8 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Service;
+namespace islamss\DDD\Helper\Make\Service;
 
-use islam\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Make\Maker;
 
 /**
  * Abstract class to manage the creation of Common components such as : Domain,Controller ect.

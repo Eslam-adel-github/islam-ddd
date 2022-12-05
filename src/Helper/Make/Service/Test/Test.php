@@ -1,14 +1,14 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Service\Test;
+namespace islamss\DDD\Helper\Make\Service\Test;
 
 use ReflectionClass;
 use ReflectionMethod;
 use Illuminate\Support\Str;
-use islam\DDD\Helper\ArrayFormatter;
-use islam\DDD\Helper\NamespaceCreator;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Stub;
+use islamss\DDD\Helper\ArrayFormatter;
+use islamss\DDD\Helper\NamespaceCreator;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Stub;
 
 abstract class Test
 {

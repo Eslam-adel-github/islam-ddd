@@ -1,11 +1,11 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Types;
+namespace islamss\DDD\Helper\Make\Types;
 
 use Illuminate\Support\Str;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Naming;
-use islam\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Naming;
+use islamss\DDD\Helper\Make\Maker;
 
 class Livewire extends Maker
 {

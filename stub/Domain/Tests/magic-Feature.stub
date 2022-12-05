@@ -5,7 +5,7 @@ namespace Src\Domain\{{DOMAIN}}\Tests\Feature;
 use Tests\TestCase;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use App\Domain\{{DOMAIN}}\Entities\{{ENTITY}};
+use Src\Domain\{{DOMAIN}}\Entities\{{ENTITY}};
 use Nuwave\Lighthouse\Testing\MakesGraphQLRequests;
 
 class {{NAME}}Test extends TestCase

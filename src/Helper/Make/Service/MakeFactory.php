@@ -1,21 +1,21 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Service;
+namespace islamss\DDD\Helper\Make\Service;
 
-use islam\DDD\Helper\ArrayFormatter;
+use islamss\DDD\Helper\ArrayFormatter;
 use Illuminate\Support\Str;
-use islam\DDD\Helper\Make\Maker;
-use islam\DDD\Helper\Make\Service\NullMaker;
-use islam\DDD\Helper\Make\Types\Controller;
-use islam\DDD\Helper\Make\Types\DatabaseView;
-use islam\DDD\Helper\Make\Types\Datatable;
-use islam\DDD\Helper\Make\Types\Domain;
-use islam\DDD\Helper\Make\Types\Entity;
-use islam\DDD\Helper\Make\Types\Factory;
-use islam\DDD\Helper\Make\Types\Migration;
-use islam\DDD\Helper\Make\Types\Seeder;
-use islam\DDD\Helper\NamespaceCreator;
-use islam\DDD\Helper\Path;
+use islamss\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Make\Service\NullMaker;
+use islamss\DDD\Helper\Make\Types\Controller;
+use islamss\DDD\Helper\Make\Types\DatabaseView;
+use islamss\DDD\Helper\Make\Types\Datatable;
+use islamss\DDD\Helper\Make\Types\Domain;
+use islamss\DDD\Helper\Make\Types\Entity;
+use islamss\DDD\Helper\Make\Types\Factory;
+use islamss\DDD\Helper\Make\Types\Migration;
+use islamss\DDD\Helper\Make\Types\Seeder;
+use islamss\DDD\Helper\NamespaceCreator;
+use islamss\DDD\Helper\Path;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
@@ -28,7 +28,7 @@ class MakeFactory{
      * @var array
      */
     public static $namespace=[
-        'islam',
+        'islamss',
         'DDD',
         'Helper',
         'Make',

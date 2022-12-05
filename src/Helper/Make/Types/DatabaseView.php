@@ -1,13 +1,13 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Types;
+namespace islamss\DDD\Helper\Make\Types;
 
-use islam\DDD\Helper\Make\Maker;
-use islam\DDD\Helper\Naming;
-use islam\DDD\Helper\Path;
+use islamss\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Naming;
+use islamss\DDD\Helper\Path;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use islam\DDD\Helper\NamespaceCreator;
+use islamss\DDD\Helper\NamespaceCreator;
 
 class DatabaseView extends Maker
 {

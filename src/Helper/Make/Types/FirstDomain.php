@@ -1,10 +1,10 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Types;
+namespace islamss\DDD\Helper\Make\Types;
 
-use islam\DDD\Helper\Layouts\LayoutFactory;
-use islam\DDD\Helper\Make\Maker;
-use islam\DDD\Helper\Path;
+use islamss\DDD\Helper\Layouts\LayoutFactory;
+use islamss\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Path;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 

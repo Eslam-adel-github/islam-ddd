@@ -1,12 +1,12 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Service\Test;
+namespace islamss\DDD\Helper\Make\Service\Test;
 
 use Illuminate\Support\Str;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Make\Maker;
 use Illuminate\Support\Facades\File;
-use islam\DDD\Helper\Make\Service\Test\Test;
+use islamss\DDD\Helper\Make\Service\Test\Test;
 
 class RepositoriesEloquent extends Test
 {

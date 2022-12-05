@@ -1,6 +1,6 @@
 <?php
 
-namespace islam\DDD\Helper;
+namespace islamss\DDD\Helper;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;

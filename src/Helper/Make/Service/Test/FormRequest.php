@@ -1,17 +1,17 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Service\Test;
+namespace islamss\DDD\Helper\Make\Service\Test;
 
 use ReflectionClass;
 use Illuminate\Support\Str;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Naming;
-use islam\DDD\Helper\Make\Maker;
-use islam\DDD\Helper\NamespaceCreator;
-use islam\DDD\Helper\Make\Service\Test\Test;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Naming;
+use islamss\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\NamespaceCreator;
+use islamss\DDD\Helper\Make\Service\Test\Test;
 use Illuminate\Validation\ValidationRuleParser;
 use Illuminate\Foundation\Http\FormRequest as Request;
-use islam\DDD\Helper\Make\Service\Test\FormRequestsTestCasesFactory;
+use islamss\DDD\Helper\Make\Service\Test\FormRequestsTestCasesFactory;
 
 class FormRequest extends Test
 {

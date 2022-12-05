@@ -1,17 +1,17 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Service\Test;
+namespace islamss\DDD\Helper\Make\Service\Test;
 
 use ReflectionClass;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Naming;
-use islam\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Naming;
+use islamss\DDD\Helper\Make\Maker;
 use Illuminate\Support\Facades\File;
 use Illuminate\Database\Eloquent\Model;
-use islam\DDD\Helper\NamespaceCreator;
-use islam\DDD\Helper\Make\Service\Test\Test;
+use islamss\DDD\Helper\NamespaceCreator;
+use islamss\DDD\Helper\Make\Service\Test\Test;
 
 class Entities extends Test
 {

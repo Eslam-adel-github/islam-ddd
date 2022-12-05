@@ -1,11 +1,11 @@
 <?php
 
-namespace islam\DDD\Helper\Make;
+namespace islamss\DDD\Helper\Make;
 
-use islam\DDD\Helper\ArrayFormatter;
-use islam\DDD\Helper\FileCreator;
-use islam\DDD\Helper\Path;
-use islam\DDD\Helper\Stub;
+use islamss\DDD\Helper\ArrayFormatter;
+use islamss\DDD\Helper\FileCreator;
+use islamss\DDD\Helper\Path;
+use islamss\DDD\Helper\Stub;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;

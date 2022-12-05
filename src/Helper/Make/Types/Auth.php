@@ -1,8 +1,8 @@
 <?php
 
-namespace islam\DDD\Helper\Make\Types;
+namespace islamss\DDD\Helper\Make\Types;
 
-use islam\DDD\Helper\Make\Maker;
+use islamss\DDD\Helper\Make\Maker;
 
 class Auth extends Maker
 {
