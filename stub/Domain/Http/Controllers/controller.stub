@@ -2,7 +2,7 @@
 
 namespace Src\Domain\{{DOMAIN}}\Http\Controllers;
 
-use Srd\Infrastructure\Http\AbstractControllers\BaseController as Controller;
+use Src\Infrastructure\Http\AbstractControllers\BaseController as Controller;
 use Src\Domain\{{DOMAIN}}\Http\Requests\{{NAME_REQUEST}}\{{NAME_REQUEST_STORE}};
 use Src\Domain\{{DOMAIN}}\Http\Requests\{{NAME_REQUEST}}\{{NAME_REQUEST_UPDATE}};
 use Src\Domain\{{DOMAIN}}\Repositories\Contracts\{{NAME_REPO}};
