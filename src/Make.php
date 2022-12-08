@@ -23,7 +23,7 @@ class Make extends Command
      *
      * @var string
      */
-    protected $signature = 'dddd:make {type}';
+    protected $signature = 'ddd:make {type}';
 
     /**
      * The console command description.

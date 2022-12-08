@@ -32,7 +32,7 @@ class Directory extends Command
      *
      * @var string
      */
-    protected $signature = 'dddd:directory
+    protected $signature = 'ddd:directory
     {--withoutBackup}
     {--removeBackup}';
 
@@ -94,21 +94,21 @@ class Directory extends Command
             File::makeDirectory(base_path().DIRECTORY_SEPARATOR.$this->base.DIRECTORY_SEPARATOR.$folder,0777, true, true);
 
             foreach($files as $file){
-                $this->info("started adding file name ".$file."to Folder ".$folder);
+                //$this->info("started adding file name ".$file."to Folder ".$folder);
                 $destination = base_path().DIRECTORY_SEPARATOR.$this->base.DIRECTORY_SEPARATOR.$folder.DIRECTORY_SEPARATOR.$file;
 
                 $stub = File::get(__DIR__.'/../stub/'.$folder.'/'.basename($file,'.php').'.stub');
 
                 File::put($destination,$stub);
-                $this->info("finished adding file name ".$file."to Folder ".$folder);
+                //$this->info("finished adding file name ".$file."to Folder ".$folder);
             }
         }
 
-        $this->info("started adding routesss ");
+        //$this->info("started adding routesss ");
 
         File::put(base_path('routes').DIRECTORY_SEPARATOR.'web.php',$this->getStub('route-web'));
 
-        $this->info("finished adding routesss ");
+        //$this->info("finished adding routesss ");
     }
 
     /**
