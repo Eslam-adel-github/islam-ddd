@@ -1,7 +1,7 @@
 <?php
 
 namespace Src\Domain\{{DOMAIN}}\Repositories\Contracts;
-use Src\Infrastructure\AbstractRepositories\RepositoryInterface;
+use Prettus\Repository\Contracts\RepositoryInterface;
 
 /**
  * Interface TestRepository.
