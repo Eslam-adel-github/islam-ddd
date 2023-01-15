@@ -95,7 +95,7 @@ class Crud extends Maker
         ]);
 
         // Create Views
-        $this->views($values);
+        //$this->views($values);
 
         // // Create Datatable
 //        Datatable::createService([
@@ -123,6 +123,20 @@ class Crud extends Maker
             'domain'    =>  $values['domain'],
             'entity'    =>  Naming::class($values['name']),
         ]);
+        
+        if($values['name'] !='user') {
+            Policy::createService([
+                'name' => $values['name']." Policy",
+                'domain' => $values['domain'],
+                'entity' => Naming::class($values['name']),
+            ]);
+        }elseif ($values['name'] =='user'){
+            PolicyUser::createService([
+                'name' => $values['name']." Policy",
+                'domain' => $values['domain'],
+                'entity' => Naming::class($values['name']),
+            ]); 
+        }
 
         // Create API Resource
         // Test::createService([

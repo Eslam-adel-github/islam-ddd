@@ -63,11 +63,13 @@ class Directory extends Command
      */
     public function handle()
     {
+        
         Artisan::call('livewire:publish',[
             '--assets'=>true
         ]);
 
-        $this->info("Livewire assets Published");
+        //$this->info("Livewire assets Published");
+        
 
         $this->setupDirectory();
 
@@ -145,7 +147,7 @@ class Directory extends Command
 
         FirstDomain::createService([]);
 
-
+        /*
         $navbar = rtrim(Path::toCommon('Components','Navbar'),DIRECTORY_SEPARATOR);
         if(!File::isDirectory($navbar)){
             File::makeDirectory($navbar,0755,true);
@@ -163,6 +165,7 @@ class Directory extends Command
             File::makeDirectory($footer,0755,true);
         }
         File::copyDirectory(Path::build(Path::package(),'views',config('ddd.layout')[0],'footer'),$footer);
+        */
     }
 
 

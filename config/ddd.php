@@ -182,6 +182,7 @@ return [
         "scope" => "Domain/Entities/Scopes/scope.stub",
         "observer" => "Domain/Observers/observer.stub",
         "policy" => "Domain/Policies/policy.stub",
+        "policy_user" => "Domain/Policies/policy_user.stub",
         "mail" => "Domain/Mail/mail.stub",
         "criteria" => "Domain/Criteria/criteria.stub",
         "listener" => "Domain/Listeners/listener.stub",
