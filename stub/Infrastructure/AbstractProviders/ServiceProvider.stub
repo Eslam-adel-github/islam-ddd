@@ -209,7 +209,7 @@ abstract class ServiceProvider extends LaravelServiceProvider
      */
     public function registerComponentViews()
     {
-    /*
+
         $directory = Path::toCommon('Components');
         if(File::isDirectory($directory)){
             $directories = Path::directories('src','Common','Components');
@@ -219,7 +219,7 @@ abstract class ServiceProvider extends LaravelServiceProvider
             }
             $this->loadViewsFrom(Path::toCommon('Components'),'Component');
         }
-        */
+
 
     }
 
